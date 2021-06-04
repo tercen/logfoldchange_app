@@ -8,9 +8,10 @@
 
 The application consists of a data input, a workflow and a data output. 
 
-The input data is the [ptk dataset](https://tercen.com/r/35c33fa33c9e6aba0dce6483f5263cde)
+The input data is the [ptk dataset](https://tercen.com/r/35c33fa33c9e6aba0dce6483f5f70135)
 
-This workflow has 3 operators:
+This workflow has 4 operators:
+- [log_cutoff_operator](https://github.com/tercen/log_cutoff_operator)
 - [identity_operator](https://github.com/tercen/identity_operator)
 - [minus_operator](https://github.com/tercen/minus_operator)
 - [mean_operator](https://github.com/tercen/mean_operator)
