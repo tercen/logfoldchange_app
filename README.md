@@ -1,14 +1,14 @@
-# foldchange_app
+# logfoldchange_app
 
 ##### Description
 
-`foldchange_app` is an application that calulates the ratio (fold change) between a control and treatment condition.
+`logfoldchange_app` is an application that calculates the ratio (fold change) between a control and treatment condition after log conversion.
 
 ##### Details
 
 The application consists of a data input, a workflow and a data output. 
 
-The input data is the log transformed [ptk dataset](https://tercen.com/r/35c33fa33c9e6aba0dce6483f5263cde)
+The input data is the [ptk dataset](https://tercen.com/r/35c33fa33c9e6aba0dce6483f5263cde)
 
 This workflow has 3 operators:
 - [identity_operator](https://github.com/tercen/identity_operator)
@@ -17,4 +17,4 @@ This workflow has 3 operators:
 
 ##### See Also
 
-[foldchange_app](https://github.com/tercen/foldchange_app)
+[logfoldchange_app](https://github.com/tercen/logfoldchange_app)
