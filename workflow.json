@@ -2,9 +2,9 @@
   "kind": "Workflow",
   "id": "33fb64086c3295748ed979a87b5e13c0",
   "isDeleted": false,
-  "rev": "31-d6969eb316d6cdd47f902df6653acf85",
+  "rev": "58-5e1391c582e8c4fbff1d5506bd30bbb4",
   "description": "Calulates the ratio (fold change) between a control and treatment condition.",
-  "name": "Log Fold Change_generic",
+  "name": "Log Fold Change_app",
   "createdBy": "Martin",
   "acl": {
     "kind": "Acl",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2021-10-14T14:00:45.807575Z"
+    "value": "2022-01-11T09:13:05.771900Z"
   },
   "urls": [
     {
@@ -111,7 +111,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 100.935546875,
+          "x": 98.84788513183594,
           "y": 55.0
         },
         "topLeft": {
@@ -314,7 +314,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -392,7 +393,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
@@ -426,7 +428,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 103.185546875,
+          "x": 100.62580871582031,
           "y": 55.0
         },
         "topLeft": {
@@ -602,7 +604,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -683,7 +686,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
@@ -717,7 +721,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 102.705078125,
+          "x": 99.9818115234375,
           "y": 55.0
         },
         "topLeft": {
@@ -1018,7 +1022,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -1069,7 +1074,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
@@ -1108,8 +1114,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 638.3979296875004,
-          "y": 487.5
+          "x": 634.3979296875004,
+          "y": 485.5
         }
       },
       "state": {
@@ -1279,7 +1285,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -1330,7 +1337,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
@@ -1364,7 +1372,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 164.515625,
+          "x": 159.0757598876953,
           "y": 55.0
         },
         "topLeft": {
@@ -1384,6 +1392,7 @@
         "kind": "WizardStepModel",
         "namespace": "LogFoldChange",
         "description": "",
+        "appDesignType": "lfc.c07_super_2group_control_pair",
         "factors": [
           {
             "kind": "MappingFactor",
@@ -1486,8 +1495,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 642.5050000000001,
-          "y": -65.5
+          "x": 634.5050000000001,
+          "y": -64.5
         }
       },
       "state": {
