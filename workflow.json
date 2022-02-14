@@ -42,7 +42,7 @@
     "kind": "Url",
     "uri": "https://github.com/tercen/logfoldchange_app"
   },
-  "version": "0.0.1",
+  "version": "0.1.1",
   "authors": [],
   "isPublic": false,
   "projectId": "33fb64086c3295748ed979a87b34b3b7",
@@ -1402,8 +1402,8 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "LogFoldChange",
-        "description": "",
+        "namespace": "LFC",
+        "description": "Calculates the ratio (Log fold change) between a control and treatment condition.",
         "appDesignType": "lfc.c07_super_2group_control_pair",
         "factors": [
           {
@@ -1434,7 +1434,7 @@
             "description": "",
             "factorName": "Supergroup",
             "factors": [],
-            "isRequired": true
+            "isRequired": false
           },
           {
             "kind": "MappingFactor",
