@@ -3,7 +3,7 @@
   "id": "33fb64086c3295748ed979a87b5e13c0",
   "isDeleted": false,
   "rev": "60-1a34b17400145404d30a93188af7552c",
-  "description": "Calulates the ratio (fold change) between a control and treatment condition.",
+  "description": "Calculates the ratio (Log fold change) between a control and treatment condition.",
   "name": "Log Fold Change_app",
   "createdBy": "Martin",
   "acl": {
